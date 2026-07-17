@@ -20,3 +20,20 @@ print(type(name))
 print(type(age))
 print(type(nasc))
 print(type(boolean))
+
+"outra maneira de imprimir"
+
+print(
+    type(name),
+    type(age),
+    type(nasc),
+    type(boolean),
+)
+
+"outra maneira de imprimir"
+print(
+    type(name), '\n',
+    type(age), '\n',
+    type(nasc), '\n',
+    type(boolean),
+)

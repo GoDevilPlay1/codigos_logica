@@ -8,10 +8,11 @@ Olá João, você tem 20 anos.
 name = "joca da silva"
 age = 35
 
-print(f"olá {name}, você tem {age} anos")
+# Interpolando usando "f"(string formatada)
+print(f"Olá {name}, você tem {age} anos")
 
-'''outro método'''
+# Argumentos da função "print"
+print("Olá", name, ", você tem",age, "anos")
 
-print("olá ", name, ", você tem ",age, " anos")
-
-print("Olá" + name + ", você tem " + str(age) + " anos")
+# Concatenando usando "+"
+print("Olá " + name + ", você tem " + str(age) + " anos")
