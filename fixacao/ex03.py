@@ -34,3 +34,4 @@ frutas.insert(5, "mamão")
 print(len(frutas))
 
 print(frutas[5])
+print()
