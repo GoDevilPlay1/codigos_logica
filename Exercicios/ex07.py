@@ -24,3 +24,9 @@ Acesso negado. '''
 
 usuario = "admin"
 senha = "1234"
+
+#         True                 True
+if usuario == "admin" and senha == "1234":
+    print("Acesso Liberado")
+else:
+    print("Acesso Negado")

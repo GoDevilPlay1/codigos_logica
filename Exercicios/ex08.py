@@ -22,6 +22,10 @@ ou
 
 Não tem direito ao desconto. '''
 
-idade = 65
+idade = int(input("Qual sua idade?"))
 estudante = False
 
+if idade >=60 or estudante:
+    print("Tem direito ao desconto")
+else:
+    print("Não tem direito ao desconto")

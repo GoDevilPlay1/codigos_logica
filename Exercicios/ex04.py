@@ -18,7 +18,7 @@ age = int(input("Qual sua idade?"))
 # Ou apenas use age = 25
 # Pois é o mais recomendado caso não peça o input
 
-if age > 18:
+if age >= 18:
     print("Maior de idade")
 else:
     print("Menor de idade")
